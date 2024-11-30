@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LetMeBeatThatApple - Beat Maker</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div id="loadingScreen">
+    <h1>Loading...</h1>
+  </div>
+
+  <!-- Main Content (Hidden initially) -->
+  <div id="mainContent" class="hidden">
+    <div class="container">
+      <h1>LetMeBeatThatApple</h1>
+      <div class="instrument-selection">
+        <button id="piano">Piano</button>
+        <button id="guitar">Guitar</button>
+        <button id="violin">Violin</button>
+        <button id="saxophone">Saxophone</button>
+        <button id="trumpet">Trumpet</button>
+      </div>
+      <h2>Selected Instrument: <span id="selectedInstrument">None</span></h2>
+      <button id="playSound">Play Sound</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
